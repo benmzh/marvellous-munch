@@ -1,0 +1,240 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: $mm-colour-black;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  transition: color 0.3s;
+}
+
+h1:hover {
+  color: $mm-colour-blue;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+p {
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+}
+
+h2.mm-hours-days {
+  font-size: 1em;
+  margin: 0px;
+}
+
+h2.mm-menu-options-heading {
+  margin: 5px 0px;
+  transition: color 0.3s;
+}
+
+h2.mm-menu-options-heading:hover {
+  color: $mm-colour-blue;
+}
+
+h2.mm-menu-options-button-text {
+  margin: 2px 0px;
+}
+
+h2.centre {
+  text-align: center;
+}
+
+h3.white {
+  color: $mm-colour-white;
+  transition: color 0.3s;
+}
+
+h3.white:hover {
+  color: $mm-colour-blue;
+}
+
+h3.mm-menu-section-heading {
+  text-align: center;
+  color: $mm-colour-blue;
+}
+
+h4.centre {
+  text-align: center;
+}
+
+a.mm-contact-failure-links {
+  transition: color 0.3s;
+}
+
+a.mm-contact-failure-links:hover {
+  color: $mm-colour-blue;
+}
+
+p.small {
+  font-size: 0.7em;
+}
+
+p.bold {
+  font-weight: 700;
+}
+
+p.mm-contact-success-failure-text {
+  margin: 20px
+}
+
+p.mm-about-us {
+
+}
+
+p.mm-about-us-expand {
+  text-align: right;
+  transition: color 0.3s;
+  color: $mm-colour-blue;
+}
+
+p.mm-about-us-expand:hover {
+  color: $mm-colour-white;
+}
+
+p#more-about-Munch {
+  display: none;
+}
+
+p#more-about-Munch:target {
+  display: inline;
+}
+
+p.mm-overlay-section-link {
+  text-align: right;
+  color: $mm-colour-black;
+  transition: color 0.3s;
+  margin: 20px;
+}
+
+p.mm-overlay-section-link:hover {
+  color: $mm-colour-blue;
+}
+
+p.mm-menu-price {
+  margin-left: 10px;
+}
+
+.mm-contact p.mm-overlay-section-link {
+  text-align: center;
+  margin: 10px;
+}
+
+p.mm-testimonials-quotation {
+
+}
+
+p.mm-testimonials-source {
+
+}
+
+p.mm-address-text {
+  text-align: center;
+  margin-top: 0px;
+}
+
+p.mm-hours-hours {
+  margin-top: 0px;
+}
+
+p.mm-social-points {
+  margin: 5px 20px 15px 20px;
+}
+
+p.mm-social-small-print {
+  margin: 20px 20px;
+}
+
+p.mm-footer-text {
+  margin: 6px;
+}
+
+span.bold {
+  font-weight: 700;
+}
+
+span.mm-menu-inner-link {
+  transition: color 0.3s;
+}
+
+span.mm-menu-inner-link:hover {
+  color: $mm-colour-blue;
+}
+
+span.mm-testimonial-author {
+  font-weight: 700;
+}
+
+span.mm-social-points-number {
+  color: $mm-colour-red;
+}
+
+span.mm-menu-section-price {
+  font-weight: 400;
+}
+
+.mm-text-no-margin {
+  margin: 0px;
+}
+
+@media (min-height: 650px) {
+
+  h1 {
+    font-size: 3em;
+  }
+
+}
+
+@media (min-width: 600px) {
+
+  h3.white {
+    margin-top: 28px;
+  }
+
+  p.mm-contact-success-failure-text {
+    margin: 40px
+  }
+
+  p.mm-overlay-body-text {
+    margin: 40px;
+  }
+
+  p.mm-overlay-section-link {
+    margin: 40px;
+  }
+
+  p.mm-menu-section-introduction {
+    margin: 16px 10px;
+  }
+
+  p.mm-testimonial-quotation, p.mm-testimonial-source {
+    margin: 16px 40px;
+  }
+
+  p.mm-social-points {
+    margin: 5px 40px 15px 40px;
+  }
+
+  p.mm-social-small-print {
+    margin: 40px 40px;
+  }
+}

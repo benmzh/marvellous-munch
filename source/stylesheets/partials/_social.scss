@@ -1,0 +1,32 @@
+.mm-social {
+  @extend .mm-overlay-section;
+  background-image: url('../images/mm-social-background.jpg');
+  text-align: center;
+}
+
+.mm-social-button {
+  height: 28px;
+  width: 71px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $mm-colour-black;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.mm-social-button:hover {
+  background-color: $mm-colour-blue;
+}
+
+.mm-social-button-icon {
+  height: 24px;
+  width: auto;
+}
+
+.fb-like, .fb-share-button {
+  margin-left: auto;
+  margin-right: auto;
+}

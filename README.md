@@ -1,2 +1,2 @@
 # marvellous-munch
-Code and assets for the Marvellous Munch website
+Repository for all code and assets relating to the website for Munch restaurant at marvellousmunch.co.uk

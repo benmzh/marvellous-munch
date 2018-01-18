@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+@import "utils/normalize";
+@import "utils/colours";
+
+@import "partials/text-styles";
+@import "partials/sticky-menu";
+@import "partials/contact-success-failure";
+@import "partials/hero";
+@import "partials/overlay-section";
+@import "partials/offerings";
+@import "partials/menu";
+@import "partials/contact-us";
+@import "partials/social";
+@import "partials/footer";
+
+body {
+  scroll-behaviour: smooth;
+}
+
+.mm-text-on-black {
+  background-color: $mm-colour-black;
+  color: $mm-colour-white;
+  padding: 20px;
+}
+
+.mm-address-maps {
+  display: block;
+  height: 30px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 600px) {
+
+  .mm-text-on-black {
+    padding: 40px;
+  }
+
+}

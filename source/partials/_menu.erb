@@ -1,0 +1,126 @@
+<div class="mm-menu-container" id="menu">
+  <div class="mm-menu">
+    <div class="mm-menu-options" id="options">
+      <img class="mm-contact-burger-icon" src="images/mm-burger-logo-black.png" alt="Marvellous Munch Logo">
+      <a href="#vegan" alt="Vegan Menu">
+        <h2 class="mm-menu-options-heading">VEGAN</h2>
+      </a>
+      <a href="#starters" alt="Vegan Menu">
+        <h2 class="mm-menu-options-heading">STARTERS</h2>
+      </a>
+      <a href="#mains" alt="Mains Menu">
+        <h2 class="mm-menu-options-heading">MAINS</h2>
+      </a>
+      <a href="#desserts" alt="Dessert Menu">
+        <h2 class="mm-menu-options-heading">DESSERTS</h2>
+      </a>
+      <a href="#kids" alt="Kids' Menu">
+        <h2 class="mm-menu-options-heading">KIDS</h2>
+      </a>
+      <a href="#drinks" alt="Drinks Menu">
+        <h2 class="mm-menu-options-heading">DRINKS</h2>
+      </a>
+      <div class="mm-menu-options-button mm-menu-options-order-online">
+        <h2 class="mm-menu-options-button-text">ORDER ONLINE</h2>
+      </div>
+      <a href="tel:01702870232" alt="Call Munch">
+        <div class="mm-menu-options-button mm-menu-options-order-phone">
+          <h2 class="mm-menu-options-button-text">PHONE ORDER</h2>
+        </div>
+      </a>
+      <a href="#gluten-free" alt="Gluten Free Dishes">
+        <div class="mm-menu-options-button mm-menu-options-gluten-free">
+          <h2 class="mm-menu-options-button-text">GLUTEN FREE</h2>
+        </div>
+      </a>
+    </div>
+    <div class="mm-menu-items">
+      <div class="mm-menu-section" id="vegan">
+        <h2 class="centre">VEGAN</h2>
+        <%= partial "partials/menu/mains/vegan" %>
+        <hr class="mm-menu-line-break">
+        <br>
+        <div class="mm-menu-back-to-top">
+          <a href="#options" alt="Return To Menu Options">
+            <p>BACK TO OPTIONS</p>
+          </a>
+        </div>
+      </div>
+      <div class="mm-menu-section" id="starters">
+        <h2 class="centre">STARTERS</h2>
+        <%= partial "partials/menu/mains/starters" %>
+        <hr class="mm-menu-line-break">
+        <br>
+        <div class="mm-menu-back-to-top">
+          <a href="#options" alt="Return To Menu Options">
+            <p>BACK TO OPTIONS</p>
+          </a>
+        </div>
+      </div>
+      <div class="mm-menu-section" id="mains">
+        <h2 class="centre">MAINS</h2>
+        <%= partial "partials/menu/mains/burgers" %>
+        <%= partial "partials/menu/mains/tacos-tostadas-burritos" %>
+        <%= partial "partials/menu/mains/nachos-and-salads" %>
+        <%= partial "partials/menu/mains/sides" %>
+        <hr class="mm-menu-line-break">
+        <br>
+        <div class="mm-menu-back-to-top">
+          <a href="#options" alt="Return To Menu Options">
+            <p>BACK TO OPTIONS</p>
+          </a>
+        </div>
+      </div>
+      <div class="mm-menu-section" id="desserts">
+        <h2 class="centre">DESSERTS</h2>
+        <%= partial "partials/menu/desserts/desserts" %>
+        <hr class="mm-menu-line-break">
+        <br>
+        <div class="mm-menu-back-to-top">
+          <a href="#options" alt="Return To Menu Options">
+            <p>BACK TO OPTIONS</p>
+          </a>
+        </div>
+      </div>
+      <div class="mm-menu-section" id="kids">
+        <h2 class="centre">KIDS</h2>
+        <%= partial "partials/menu/mains/kids" %>
+        <hr class="mm-menu-line-break">
+        <br>
+        <div class="mm-menu-back-to-top">
+          <a href="#options" alt="Return To Menu Options">
+            <p>BACK TO OPTIONS</p>
+          </a>
+        </div>
+      </div>
+      <div class="mm-menu-section" id="drinks">
+        <h2 class="centre">DRINKS</h2>
+        <%= partial "partials/menu/drinks/craft-beers-and-cider" %>
+        <%= partial "partials/menu/drinks/cocktails" %>
+        <%= partial "partials/menu/drinks/wine" %>
+        <%= partial "partials/menu/drinks/spirits-and-shots" %>
+        <%= partial "partials/menu/drinks/milkshakes" %>
+        <%= partial "partials/menu/drinks/soft-drinks" %>
+        <%= partial "partials/menu/drinks/hot-drinks" %>
+        <hr class="mm-menu-line-break">
+        <br>
+        <div class="mm-menu-back-to-top">
+          <a href="#options" alt="Return To Menu Options">
+            <p>BACK TO OPTIONS</p>
+          </a>
+        </div>
+      </div>
+      <div class="mm-menu-section" id="gluten-free">
+        <h2 class="centre">GLUTEN FREE DISHES</h2>
+        <%= partial "partials/menu/gluten-free" %>
+        <hr class="mm-menu-line-break">
+        <br>
+        <div class="mm-menu-back-to-top">
+          <a href="#options" alt="Return To Menu Options">
+            <p>BACK TO OPTIONS</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

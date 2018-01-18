@@ -1,0 +1,62 @@
+.mm-overlay-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  height: 140vh;
+  min-height: 800px;
+}
+
+.mm-overlay {
+  padding: 20px;
+  background-color: $mm-colour-white-opaque;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mm-eat-in {
+  background-image: url('../images/mm-eat-in-background.jpg');
+}
+
+.mm-vegan {
+  background-image: url('../images/mm-vegan-background.jpg');
+}
+
+.mm-testimonials {
+  background-image: url('../images/mm-testimonials-background.jpg');
+  text-align: center;
+}
+
+.mm-hours {
+  background-image: url('../images/mm-hours-background.jpg');
+  background-position: left;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+
+  .mm-overlay-section {
+    display: block;
+    height: 100vh;
+    min-height: 600px;
+  }
+
+  .mm-overlay {
+    background-color: $mm-colour-white-opaque;
+    height: 100%;
+    width: 50%;
+    padding: 0px;
+  }
+
+  .mm-overlay-left {
+    margin-right: auto;
+  }
+
+  .mm-overlay-right {
+    margin-left: auto;
+  }
+
+}

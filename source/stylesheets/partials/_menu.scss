@@ -1,0 +1,154 @@
+.mm-menu-container {
+  @extend .mm-overlay-section;
+  background-color: $mm-colour-cream;
+  height: auto;
+  min-height: 400px;
+}
+
+.mm-menu {
+  padding: 40px 0px;
+}
+
+.mm-menu-options {
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.mm-menu-options-button {
+  border-style: solid;
+  border-width: 2px;
+  transition: background-color 0.3s, color 0.3s;
+  margin-bottom: 5px;
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.mm-menu-options-order-online {
+  border-color: $mm-colour-blue;
+  background-color: $mm-colour-blue;
+  color: $mm-colour-white;
+}
+
+.mm-menu-options-order-online:hover {
+  background-color: transparent;
+  color: $mm-colour-blue;
+}
+
+.mm-menu-options-order-phone {
+  border-color: $mm-colour-blue;
+  color: $mm-colour-blue;
+}
+
+.mm-menu-options-order-phone:hover {
+  background-color: $mm-colour-blue;
+  color: $mm-colour-white;
+}
+
+.mm-menu-options-gluten-free {
+  border-color: $mm-colour-black;
+  background-color:$mm-colour-black;
+  color: $mm-colour-white;
+}
+
+.mm-menu-options-gluten-free:hover {
+  background-color: transparent;
+  color: $mm-colour-black;
+}
+
+.mm-menu-section {
+  display: none;
+}
+
+.mm-menu-section:target {
+  display: block;
+}
+
+.mm-menu-food-group {
+  padding: 0px 20px;
+}
+
+.mm-menu-back-to-top {
+  margin: 0px 20px;
+  border-style: solid;
+  border-width: 2px;
+  transition: background-color 0.3s, color 0.3s;
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  border-color: $mm-colour-blue;
+  background-color: $mm-colour-blue;
+  color: $mm-colour-white;
+  text-align: center;
+}
+
+.mm-menu-back-to-top:hover {
+  background-color: transparent;
+  color: $mm-colour-blue;
+}
+
+.mm-menu-item-top-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+hr.mm-menu-line-break {
+  width: 50%;
+  align: center;
+}
+
+@media (min-width: 1000px) {
+
+  .mm-menu-container {
+    background-image: url('../images/mm-menu-background.jpg');
+    background-color: none;
+    height: 800px;
+    padding: 40px;
+  }
+
+  .mm-menu {
+    background-color: $mm-colour-cream;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mm-menu-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .mm-menu-section {
+    display: block;
+  }
+
+  .mm-menu-items {
+    height: 720px;
+    overflow-y: scroll;
+  }
+
+  .mm-menu-food-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+  }
+
+  .mm-menu-section-heading-container {
+    width: 100%;
+  }
+
+  .mm-menu-item {
+    width: 45%;
+    padding: 0px 10px;
+  }
+
+  .mm-menu-back-to-top {
+    display: none;
+  }
+
+}

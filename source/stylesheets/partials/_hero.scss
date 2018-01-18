@@ -1,0 +1,59 @@
+.mm-hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('../images/mm-hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.mm-hero-munch-logo {
+  width: 75vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mm-hero-social-icon-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.mm-hero-social-icon {
+  height: 50px;
+  width: auto;
+  margin: 0px 10px;
+}
+
+@media (min-width: 600px) {
+
+  .mm-hero {
+    min-height: 600px;
+  }
+
+  .mm-hero-munch-logo {
+    width: 60vw;
+    max-width: 700px;
+  }
+
+  .mm-hero-social-icon-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+
+  .mm-hero-social-icon {
+    height: 60px;
+  }
+
+}
